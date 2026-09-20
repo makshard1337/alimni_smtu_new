@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Присоединиться — Выпускники СПбГМТУ</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="join">
+  <main>
+    <section class="page-hero" style="--page-image:url('img/hero.jpg')">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">Главная</a> / Присоединиться</div>
+        <h1>Присоединиться к сообществу</h1>
+        <p>Все заявки открывают сторонние анкеты Университета. Пока ссылка не подключена, кнопка создаёт письмо в отдел.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container grid-2">
+        <article class="card" data-action="join">
+          <div class="card__num">Основное</div>
+          <h3>Вступить в сообщество</h3>
+          <p>ФИО, год выпуска, направление, контакты, место работы и желаемая роль участия.</p>
+          <a class="btn btn--primary" style="margin-top:16px" data-form="join" href="#">Перейти к анкете</a>
+        </article>
+        <article class="card" data-action="update">
+          <div class="card__num">Профиль</div>
+          <h3>Обновить данные о себе</h3>
+          <p>Если вы уже в базе — актуализируйте работу, контакты и роль участия.</p>
+          <a class="btn btn--line" style="margin-top:16px" data-form="update" href="#">Обновить данные</a>
+        </article>
+        <article class="card" data-action="mentor">
+          <h3>Наставник</h3>
+          <p>Заявка в менторскую программу.</p>
+          <a class="more" data-form="mentor" href="#">Анкета наставника</a>
+        </article>
+        <article class="card" data-action="lecture">
+          <h3>Спикер</h3>
+          <p>Предложить лекцию или выступление.</p>
+          <a class="more" data-form="lecture" href="#">Анкета спикера</a>
+        </article>
+        <article class="card" data-action="vacancy">
+          <h3>Работодатель</h3>
+          <p>Практика, стажировка или вакансия.</p>
+          <a class="more" data-form="vacancy" href="#">Анкета работодателя</a>
+        </article>
+        <article class="card" data-action="ambassador">
+          <h3>Амбассадор</h3>
+          <p>Представлять СПбГМТУ во внешней среде.</p>
+          <a class="more" data-form="ambassador" href="#">Анкета амбассадора</a>
+        </article>
+        <article class="card" data-action="reunion">
+          <h3>Встреча выпуска</h3>
+          <p>Помощь с организацией на территории Университета.</p>
+          <a class="more" data-form="reunion" href="#">Заявка на встречу</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="js/config.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
