@@ -19,11 +19,11 @@
     <header class="header">
       <div class="topbar">
         <div class="container topbar__inner">
-          <a href="${SITE.links.university}" target="_blank" rel="noopener">smtu.ru</a>
+          <a href="${SITE.links.university}" target="_blank" rel="noopener">СПбГМТУ</a>
           <span class="topbar__sep"></span>
           <a href="${SITE.links.priority}" target="_blank" rel="noopener">Приоритет-2030</a>
           <span class="topbar__sep"></span>
-          <a href="${SITE.links.engineers}" target="_blank" rel="noopener">Инженеры 2030</a>
+          <a href="${SITE.links.engineers}" target="_blank" rel="noopener">ПИШ</a>
           <span class="topbar__sep"></span>
           <a href="${SITE.links.pilot}" target="_blank" rel="noopener">Пилотный проект</a>
           <span class="topbar__sep"></span>
@@ -41,7 +41,7 @@
         </a>
         <nav class="nav" id="site-nav">${navHtml}</nav>
         <div class="header__cta">
-          <a class="btn btn--cyan" data-form="join" href="join.html">Присоединиться</a>
+          <a class="btn btn--cyan" data-form="join" href="https://isu.smtu.ru/reg/" target="_blank" rel="noopener">Присоединиться</a>
           <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
             <span></span><span></span><span></span>
           </button>
@@ -69,7 +69,7 @@
           <a href="mentoring.html">Наставничество</a>
           <a href="projects.html">Проекты</a>
           <a href="support.html">Поддержать Университет</a>
-          <a href="join.html">Присоединиться</a>
+          <a href="https://isu.smtu.ru/reg/" target="_blank" rel="noopener">Присоединиться</a>
         </div>
         <div>
           <h3>Контакты</h3>
